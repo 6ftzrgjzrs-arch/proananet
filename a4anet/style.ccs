@@ -1,0 +1,28 @@
+/* BILD 5 */
+
+.picture5 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+
+/* BILD 6 */
+
+.picture6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+.
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.picture {
+    border: 2px solid #888888;
+    background: #dddddd;
+    height: 150px;
+    overflow: hidden;
+}
+
